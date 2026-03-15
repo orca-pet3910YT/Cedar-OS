@@ -7,7 +7,10 @@ A Lite, Free, Open Source Operating System, Made From Scratch.
 > [!WARNING]
 > This OS may be unstable in in real computers, try to run in qemu as we still did not try to run on real pc...
 >
-> > [!WARNING]
+>
+
+
+> [!WARNING]
 > Now you have to use boot.img and not cedar.img
 # How to compile?
 
