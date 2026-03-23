@@ -93,7 +93,7 @@ msg: db "CEDAR OS MASTER BOOT RECORD BOOTLOADER FOR 86X", 0
 test1: db "[..] init system...", 0
 test2: db "[OK] diskreadmgr", 0
 test3: db "[OK] Reading disk for Kernel", 0
-disk_err: db "[ERROR] 0x000000a2: disk_failure_read_bootmgr", 0
+disk_err: db "[ERROR] 0x000000a2: No kernel found", 0
 gdt_start:
 dw 0x0, 0x0, 0x0, 0x0
 gdt_code:
