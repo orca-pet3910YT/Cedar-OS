@@ -25,5 +25,5 @@ void init_idt(void) {
     }
     __asm__ __volatile__("lidt (%0)" :: "r"(&idt_ptr));
     __asm__ __volatile__("sti");
-    // people using asm in the big 2026...
+    
 }
